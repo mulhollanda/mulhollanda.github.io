@@ -1,0 +1,1 @@
+var AndyMulholland=function(n){"use strict";var r={},t=function(){n('img[src*="svg"]').attr("src",function(){return n(this).attr("src").replace(".svg",".png")})};return r.init=function(){Modernizr.svg||t(),n("body").scrollspy({target:".navbar-default"})},r}($);AndyMulholland.init();
